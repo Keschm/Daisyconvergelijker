@@ -1,1 +1,559 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700';
+* {}
 
+body {
+    background-color: #efefef;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
+}
+
+.comparator-wrapper {
+    margin: 12  px auto 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Packagehandler styling */
+
+.packagehandler {
+    width: 240px;
+    float: left;
+}
+
+.packagehandler .widget {
+    background-color: #FFFFFF;
+    padding: 25px;
+    margin-bottom: 16px;
+}
+
+.packagehandler .widget.address {
+    margin-bottom: 0px;
+}
+
+.packagehandler .widget .setting {
+    margin-bottom: 16px;
+}
+
+.packagehandler .widget .setting.last {
+    margin-bottom: 0;
+}
+
+.packagehandler .widget .heading {
+    font-size: 15px;
+    font-weight: 600;
+    color: #253764;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.packagehandler .widget label {
+    font-size: 15px;
+    font-weight: 400;
+    color: #253764;
+    cursor: pointer;
+}
+
+.packagehandler .widget label.check {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.packagehandler .widget label.check input {
+    background-color: #ffffff;
+}
+
+.packagehandler .widget .field {
+    margin-top: 4px;
+    width: calc(100% - 20px);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid #c2c2c2;
+    color: #a2a2a2;
+    border-radius: 2px;
+    box-shadow: 1px 1px 0px #c2c2c2;
+}
+
+.packagehandler .widget .field.address-f {
+    width: calc(50% - 28px);
+    float: left;
+}
+
+.packagehandler .widget .field.address-l {
+    width: calc(50% - 28px);
+    float: right;
+}
+
+.packagehandler .address-button {
+    margin-bottom: 12px;
+}
+
+.packagehandler .address-button .button {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    display: block;
+    padding: 12px 0;
+    cursor: pointer;
+    background-color: #253764;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.packagehandler .address-button .button:hover {
+    background-color: #4D5D81;
+}
+
+.packagehandler .address-button .button:focus {
+    outline: none;
+}
+
+.packagehandler .error {
+    color: #F08080;
+    font-size: 11px;
+}
+
+
+/* Slider styling */
+
+.packagehandler .slider {
+    position: relative;
+    width: 100%;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #c2c2c2;
+}
+
+.packagehandler .slider .slider-handle {
+    top: -4px;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    background-color: #253764;
+    cursor: pointer;
+}
+
+.packagehandler .slider .slider-range {
+    position: absolute;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #7a7a7a;
+}
+
+.packagehandler label.slider-value {
+    color: #000000;
+    font-size: 12px;
+}
+
+.packagehandler .slider-values {
+    padding: 4px 0;
+    position: relative;
+}
+
+.packagehandler label.slider-value.left {
+    position: absolute;
+    left: 2px;
+}
+
+.packagehandler label.slider-value.right {
+    position: absolute;
+    right: 2px;
+}
+
+
+/* Compare/showmore Button styling */
+
+.compare-button-holder {
+    margin-bottom: 12px;
+}
+
+.compare-button-holder input {
+    margin-left: -4px;
+    display: inline-block;
+    border: 0;
+    background-color: #253764;
+    color: #ffffff;
+    padding: 8px 20px;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.compare-button-holder input.right {
+    float: right;
+}
+
+.compare-button-holder input:hover {
+    background-color: #4D5D81;
+}
+
+.compare-button-holder .compare-button-line {
+    margin-top: 16px;
+    margin-left: 33px;
+    vertical-align: top;
+    display: inline-block;
+    height: 1px;
+    width: 20px;
+    background-color: #253764;
+}
+
+.showmore-button-holder {
+    margin: 20px auto 0;
+    width: 32%;
+}
+
+.showmore-button-holder button {
+    margin-top: 0px;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.showmore-button-holder button img {
+    width: 100%;
+}
+
+
+/* Package styling */
+
+.packages {
+    width: calc(100% - 252px);
+    float: right;
+}
+
+.package {
+    height: 60px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin-bottom: 12px;
+}
+
+.package .package-wrapper {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.package .left {
+    float: left;
+    width: calc(100% - 360px);
+    overflow: hidden;
+}
+
+.package .right {
+    float: right;
+    width: 360px;
+}
+
+.package .col {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+}
+
+.package .infoColumn {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+    text-align: left;
+    width: 75px;
+}
+
+.package .price {
+    width: 75px;
+}
+
+.package .logo {
+    padding-left: 0;
+    padding-right: 0;
+    height: 60px;
+    width: 110px;
+}
+
+.package .logo span {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.package .logo img {
+    width: 80px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.package .info {
+    white-space:nowrap;
+    float: right;
+    width: calc(100% - 110px);
+}
+
+.package .checkbox {
+    display: none;
+}
+
+.package .checkbox-custom {
+    margin-top: 8px;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #253764;
+    background-color: #efefef;
+    border-radius: 3px;
+    z-index: 2;
+    box-shadow: 1px 1px 0px #b2b2b2;
+}
+
+.package .checkbox-custom i {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    color: #253764;
+}
+
+.package .redirect {
+    padding-right: 0;
+    float: right;
+    height: 100%;
+}
+
+.package .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #253764;
+    text-align: right;
+}
+
+.package .title span {
+    border-bottom: 1px dotted #253764;
+}
+
+.package .title i {
+    font-size: 13px;
+    color: #ff8d19;
+}
+
+.package .title.package-title {
+    text-align: left;
+}
+
+.package .title .downicon {
+    float: right;
+    height: 30px;
+    width: 14px;
+    margin-left: 5px;
+    background: url('/images/arr-down.png') no-repeat center center;
+    background-size: 12px 12px;
+}
+.package .title .upicon {
+    float: right;
+    height: 30px;
+    width: 14px;
+    margin-left: 5px;
+    background: url('/images/arr-up.png') no-repeat center center;
+    background-size: 12px 12px;
+}
+.package .title .tvicon {
+    float: right;
+    height: 30px;
+    width: 14px;
+    margin-left: 5px;
+    background: url('/images/tv.png') no-repeat center center;
+    background-size: 12px 12px;
+}
+.package .title .hdicon {
+    float: right;
+    height: 30px;
+    width: 14px;
+    margin-left: 5px;
+    background: url('/images/hd.png') no-repeat center center;
+    background-size: 12px 12px;
+}
+
+.package .discount-title {
+    font-size: 12px;
+    line-height: 24px;
+    display: inline-block;
+    padding: 0 12px;
+    background-color: #ffe5a6;
+}
+
+.package .price .title {
+    font-weight: 700;
+}
+
+.package .read-more {
+    padding: 1px 8px;
+    color: #ffffff;
+    background-color: #253764;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.package .read-more:hover {
+    background-color: #4D5D81;
+}
+
+.package .features {
+    margin: 10px 0 0;
+    padding-left: 0px;
+    color: #7F7F7F;
+    list-style-type: none;
+}
+
+.package .features li {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.package .features li i {
+    color: #253764;
+    margin-right: 5px;
+    width: 14px;
+    text-align: center;
+}
+
+.package .infoColumns {
+    float: left;
+}
+
+.package .link {
+    font-weight: 700;
+    float: right;
+    display: block;
+    width: 90px;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    font-size: 13px;
+    background-color: #253764;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+}
+
+.package .link:hover {
+    text-decoration: none;
+    background-color: #4D5D81;
+}
+
+.package .show-more {
+    margin-top: 2px;
+    font-weight: 400;
+    float: right;
+    display: block;
+    line-height: 20px;
+    font-size: 11px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #8f8f8f;
+    color: #7f7f7f;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.package .show-more:hover {
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+.package .show-more:focus {
+    outline: none;
+}
+
+.package .more-info {
+    float: right;
+    width: 100%;
+}
+
+.loadingscreen {
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+}
+
+@media (max-width: 850px) {
+    .package .logo {
+        display: none;
+    }
+    .package .info {
+        width: 100%;
+    }
+}
+@media (max-width: 620px) {
+    .package {
+        height: auto;
+    }
+    .package .left {
+        width: 100%;
+    }
+    .package .right {
+        float: left;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .package .features {
+        display: none;
+    }
+    .package .show-more {
+        display: none;
+    }
+    .package .redirect {
+        height: 100%;
+    }
+}
+@media (max-width: 410px) {
+    .package {
+        min-width: 210px;
+        padding: 15px;
+    }
+    .package .discount-title {
+        margin-top: 10px;
+    }
+    .package .redirect{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .package .left {
+        overflow: visible;
+    }
+    .package .link {
+        width: 100%;
+    }
+    .package .col {
+        width: 100%;
+    }
+    .package .infoColumn {
+        width: 32%;
+        padding: 0;
+    }
+    .package .title {
+        text-align: right;
+    }
+    .package .title.price {
+        width: 100%;
+        text-align: right;
+    }
+    .package .info {
+        white-space: normal;
+        text-align: center;
+    }
+    .package .title.package-title {
+        text-align: center;
+    }
+}
