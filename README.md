@@ -8,8 +8,8 @@ Tested up to: 4.7.2<br>
 Donate link:<br>
 Stable tag: 1.0<br>
 Author: Leosch<br> 
-Author URI: https://www.allesin1vergelijken.eu <br>
-License: Allesin1vergelijken.eu<br>
+Author URI: <a href="https://www.allesin1vergelijken.org/">Alles in 1 vergelijken</a><br>
+License: Allesin1vergelijken.org<br>
 <br>
 Alles in 1 vergelijker
 
