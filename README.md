@@ -1,15 +1,15 @@
 # Daisyconvergelijker
 
 === Alles in 1 vergelijken ===<br>
-Contributors: Allesin1vergelijken.eu<br>
+Contributors: Alles-in-een.net<br>
 Tags: Affiliate marketing, xml feed, vergelijken, vergelijkingssite, Allesin1vergelijken<br>
 Requires at least: 3.4.2<br>
 Tested up to: 4.7.2<br>
 Donate link:<br>
 Stable tag: 1.0<br>
 Author: Leosch<br> 
-Author URI: <a href="https://www.allesin1vergelijken.org/">Alles in 1 vergelijken</a><br>
-License: Allesin1vergelijken.org<br>
+Author URI: <a href="https://www.alles-in-een.net/">https://www.alles-in-een.net</a><br>
+License: Alles-in-een.net<br>
 <br>
 Alles in 1 vergelijker
 
