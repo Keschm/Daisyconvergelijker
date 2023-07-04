@@ -45,7 +45,7 @@ Adacado https://www.adacado.com/privacy-policy-april-25-2018/
 
 Adara Media https://adara.com/2018/04/10/adara-gdpr-faq/
 
-Snusladen https://snusladen.de/datenschutzerklaerung
+Snusladen https://snusladen.de/datenschutzerklaerung/
 
 ADEX http://theadex.com
 
@@ -531,5 +531,6 @@ epom https://epom.com/privacy-policy
 
 basis https://privacy.basis.net/
 
+awin https://www.awin.com/de/datenschutzerklarung
 
 
