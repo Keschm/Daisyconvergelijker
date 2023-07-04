@@ -143,6 +143,8 @@ CUBED http://cubed.ai/privacy-policy/gdpr/
 
 DataXu https://www.dataxu.com/gdpr/
 
+Daisycon https://www.daisycon.com/en/privacy/
+
 Delta Projects http://www.deltaprojects.com/data-collection-policy/
 
 Demandbase https://www.demandbase.com/privacy-policy/
