@@ -45,8 +45,6 @@ Adacado https://www.adacado.com/privacy-policy-april-25-2018/
 
 Adara Media https://adara.com/2018/04/10/adara-gdpr-faq/
 
-Snusladen https://snusladen.de/datenschutzerklaerung/
-
 ADEX http://theadex.com
 
 Adform https://site.adform.com/uncategorized/product-and-services-privacy-policy/
@@ -374,6 +372,8 @@ Smadex http://smadex.com/end-user-privacy-policy/
 Smart http://smartadserver.com/company/privacy-policy/
 
 Smartology https://www.smartology.net/privacy-policy/
+
+Snusladen https://snusladen.de/datenschutzerklaerung/
 
 Sociomantic https://www.sociomantic.com/privacy/en/
 
