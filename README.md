@@ -107,6 +107,8 @@ Betgenius http://betting.geniussports.com/connextra-service-terms-conditions/
 
 Bidswitch http://www.bidswitch.com/privacy-policy/
 
+Blazz das Online Magazin https://blazz.de](https://blazz.de/datenschutzerklaerung/
+
 Blismedia http://www.blis.com/privacy/
 
 Bombora http://bombora.com/privacy
